@@ -1,0 +1,39 @@
+object fMain: TfMain
+  Cursor = crNone
+  Left = 895
+  Height = 380
+  Top = 325
+  Width = 942
+  BorderStyle = bsNone
+  Caption = 'fMain'
+  ClientHeight = 380
+  ClientWidth = 942
+  Color = clBlack
+  DesignTimePPI = 120
+  OnKeyPress = FormKeyPress
+  LCLVersion = '3.2.0.0'
+  WindowState = wsMaximized
+  object lClock: TLabel
+    Left = 1030
+    Height = 76
+    Top = 560
+    Width = 267
+    Caption = '00:00:00'
+    Color = clBlack
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clSkyBlue
+    Font.Height = -67
+    Font.Name = 'Toledo Light'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 76
+    Top = 276
+  end
+end

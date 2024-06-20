@@ -1,0 +1,98 @@
+object fMain: TfMain
+  Left = 379
+  Height = 649
+  Top = 194
+  Width = 531
+  BorderIcons = [biMinimize]
+  BorderStyle = bsDialog
+  Caption = 'Работа с подпрограммами'
+  ClientHeight = 649
+  ClientWidth = 531
+  Color = 16777158
+  DesignTimePPI = 120
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 50
+    Height = 26
+    Top = 40
+    Width = 238
+    Caption = 'Введите любое число:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -24
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 320
+    Height = 28
+    Top = 40
+    Width = 160
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 176
+    Height = 41
+    Top = 360
+    Width = 174
+    Caption = 'Пример удвоения №1'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 176
+    Height = 40
+    Top = 410
+    Width = 174
+    Caption = 'Пример удовения №2'
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 176
+    Height = 31
+    Top = 460
+    Width = 176
+    Caption = 'Пример удвоения №3'
+    TabOrder = 3
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 176
+    Height = 31
+    Top = 500
+    Width = 176
+    Caption = 'Пример удвоения №4'
+    TabOrder = 4
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 176
+    Height = 32
+    Top = 540
+    Width = 174
+    Caption = 'Пример удвоения №5'
+    TabOrder = 5
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 16
+    Height = 24
+    Top = 608
+    Width = 94
+    Caption = 'exit'
+    TabOrder = 6
+    OnClick = Button6Click
+  end
+  object Memo1: TMemo
+    Left = 120
+    Height = 247
+    Top = 104
+    Width = 288
+    TabOrder = 7
+  end
+end
